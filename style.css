@@ -7,7 +7,7 @@
 body {
     background-color: rgb(222, 206, 183);
     font-family:serif;
-    
+
     background-image: url("banner.png");
     background-size: 70px;
     background-position: 30px;
@@ -20,6 +20,12 @@ body {
 h1{
     font-family:'Times New Roman', Times, serif;
     color: rgb(8,26,49);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-weight: 100;
 }
 
 p{
@@ -72,7 +78,7 @@ pre{
     margin: 200px 400px
 }
 
-.pg-1 .img-after { 
+.pg-1 .img-after {
     position: absolute;
     top: 200px;
     left: 450px;
@@ -99,18 +105,18 @@ pre{
     top: 0px;
     left: 200px;
     z-index: 0;
-    
-    
+
+
 }
 
 .pg-2 .chive-image img{
     width: 50%;
-    
+
 }
 
 .pg-2 {
     position: relative;
-    
+
 }
 
 .pg-2 pre{
@@ -133,10 +139,51 @@ pre{
     position: relative;
     left: 50%
 }
-.pg-5 p {
-    max-width: 700px;
+
+.pg-4 {
+    position: relative;
+    font-size: 10pt;
+    font-style: italic;
+    left: 10%;
 }
 
-.pg-7 p {
+.pg-5{
+    position: relative;
+}
+
+.pg-5 img{
+    margin: 300px 20px;
+    position: relative;
+    left: 15%;
+    width: 25%;
+    z-index: 0;
+}
+
+.pg-5 p {
     max-width: 700px;
+    position: absolute;
+    left: 35%;
+    top: 400px;
+    z-index: 1;
+}
+
+.pg-5 p span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-weight: 100;
+}
+
+/* .pg-7 p {
+    max-width: 700px;
+} */
+
+.spread img{
+    width: 100vw;
+}
+
+.final-pg{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
 }
